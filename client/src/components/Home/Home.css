@@ -6,4 +6,61 @@
 .iphone-13-h1 {
   font-size: 45px;
   margin: 35px 0 0 0;
+  font-family: san 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.iphone-13-p {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+}
+
+.learn-more-link {
+  font-size: 21px;
+  color: rgb(1, 95, 189);
+  text-decoration: none;
+}
+.learn-more-link:hover {
+  text-decoration: underline;
+}
+.learn-more-link:after {
+  content: "→";
+}
+
+.buy-link {
+  font-size: 21px;
+  color: rgb(1, 95, 189);
+  text-decoration: none;
+  margin: 0 0 0 35px;
+}
+.buy-link:hover {
+  text-decoration: underline;
+}
+.buy-link:after {
+  content: "→";
+}
+
+.grid-learn-more-link {
+  font-size: 17px;
+  color: rgb(1, 95, 189);
+  text-decoration: none;
+}
+.grid-learn-more-link:hover {
+  text-decoration: underline;
+}
+.grid-learn-more-link:after {
+  content: "→";
+}
+
+.grid-buy-link {
+  font-size: 17px;
+  color: rgb(1, 95, 189);
+  text-decoration: none;
+  margin: 0 0 0 28px;
+}
+.grid-buy-link:hover {
+  text-decoration: underline;
+}
+.grid-buy-link:after {
+  content: "→";
+}
+
