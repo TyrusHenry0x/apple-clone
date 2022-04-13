@@ -7,15 +7,18 @@
   font-size: 45px;
   margin: 35px 0 0 0;
   font-family: san 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  /* letter-spacing: -.022em; */
 }
 
 .iphone-13-p {
   font-size: 20px;
-  margin: 5px 0 0 0;
+  margin: 8px 0 15px 0;
+  
 }
 
 .learn-more-link {
-  font-size: 21px;
+  font-size: 16px;
   color: rgb(1, 95, 189);
   text-decoration: none;
 }
@@ -27,7 +30,7 @@
 }
 
 .buy-link {
-  font-size: 21px;
+  font-size: 16px;
   color: rgb(1, 95, 189);
   text-decoration: none;
   margin: 0 0 0 35px;

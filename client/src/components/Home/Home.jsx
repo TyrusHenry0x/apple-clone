@@ -1,5 +1,4 @@
 import './Home.css'
-// import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -9,7 +8,7 @@ const Home = () => {
         <p className='iphone-13-p'>Oh. So. Pro.</p>
         <a href='' className='learn-more-link'>Learn more </a>
         <a href='' className='buy-link'>Buy</a>
-        <div className='iphone-13-image'></div>
+        <img src="/assets/images/iPhone-13.jpg"/>
       </div>
 
       <div className='iphone-se-div'>
