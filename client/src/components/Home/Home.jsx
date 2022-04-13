@@ -17,9 +17,11 @@ const Home = () => {
         <p className='iphone-se-p1'>The new</p>
         <h1 className='iphone-se-h1'>iPhone SE</h1>
         <p className='iphone-se-p2'>Love the power. Love the price</p>
-        <a href='' className='learn-more-link'>Learn more </a>
-        <a href='' className='buy-link'>Buy</a>
-        <div className='iphone-se-image'></div>
+        <div className='link-div'>
+          <a href='' className='learn-more-link'>Learn more </a>
+          <a href='' className='buy-link'>Buy</a>
+        </div>
+        <img className='iphone-se-image' src='/assets/images/Apple-iPhoneSE-double-infinity-220308_Full-Bleed-Image.jpg.slideshow-xlarge.png'/>
       </div>
 
       <div className='ipad-air-div'>
