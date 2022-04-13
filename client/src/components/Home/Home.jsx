@@ -6,9 +6,11 @@ const Home = () => {
       <div className='iphone-13-div'>
         <h1 className='iphone-13-h1'>iPhone 13 Pro</h1>
         <p className='iphone-13-p'>Oh. So. Pro.</p>
-        <a href='' className='learn-more-link'>Learn more </a>
-        <a href='' className='buy-link'>Buy</a>
-        <img src="/assets/images/iPhone-13.jpg"/>
+        <div className='link-div'>
+          <a href='' className='learn-more-link'>Learn more </a>
+          <a href='' className='buy-link'>Buy</a>
+        </div>
+        <img className='iphone-13-image' src="/assets/images/iPhone-13.jpg" />
       </div>
 
       <div className='iphone-se-div'>

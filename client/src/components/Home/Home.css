@@ -1,6 +1,11 @@
 /* iphone 13 div styling */
 .iphone-13-div {
-  height: 580px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBFBFD;
+  
 }
 
 .iphone-13-h1 {
@@ -12,11 +17,17 @@
 }
 
 .iphone-13-p {
-  font-size: 20px;
-  margin: 8px 0 15px 0;
+  font-size: 22px;
+  margin: 5px 0 15px 0;
   
 }
 
+.iphone-13-image {
+  height: 380px;
+  width: fit-content;
+  bottom: 0%;
+  margin: 35px 0 0 0;
+}
 .learn-more-link {
   font-size: 16px;
   color: rgb(1, 95, 189);
