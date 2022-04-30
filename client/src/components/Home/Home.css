@@ -114,9 +114,16 @@ margin: 0 25px 0 60px;
   height: fit-content;
   margin: 10px;
   display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: auto 10px auto;
 
   background-color: gray;
+}
+
+.gutter {
+  height: 100%;
+  width: 10px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
 }
 
 .wwdc22-div {
@@ -196,7 +203,7 @@ grid-template-columns: auto auto;
 .watch-apple-icon {
   height: 24px;
   width: auto;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 } 
 
 .apple-watch-sub {
@@ -210,6 +217,44 @@ grid-template-columns: auto auto;
   width: 625px;
   height: auto;
   object-fit: contain;
+}
+
+
+.studio-display-div {
+  margin-top: 10px;
+  width: 100%;
+  height: 465px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(251,251,253);
+}
+
+.studio-display-h1 {
+  font-size: 32px;
+  font-weight: 560;
+  margin: 40px 0 0 0;
+}
+
+.studio-display-p {
+  margin: 5px 0 10px 0;
+  font-size: 16px;
+}
+
+.studio-display-image {
+  width: 650px;
+}
+
+.mac-studio-div {
+  margin-top: 10px;
+  width: 100%;
+  height: 465px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(251,251,253);
 }
 
 .learn-more-link {

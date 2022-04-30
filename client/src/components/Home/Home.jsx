@@ -54,6 +54,9 @@ const Home = () => {
           <a href='' className='grid-learn-more-link'>Learn more</a>
         </div>
 
+        <div className='gutter'>
+        </div>
+
         <div className='apple-watch-div'>
           <div className='apple-watch-h1-div'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="watch-apple-icon" viewBox="0 0 16 16">
@@ -70,15 +73,20 @@ const Home = () => {
           <img className='apple-watch-image' src='/assets/images/apple-watch.png'></img>
         </div>
 
-        <div className='studio-display-box'>
+        <div className='studio-display-div'>
           <h1 className='studio-display-h1'>Studio Display</h1>
           <p className='studio-display-p'>A sight to be bold.</p>
-          <a href='' className='grid-learn-more-link'>Learn more</a>
-          <a href='' className='grid-buy-link'>Buy</a>
-          <div className='studio-display-image'></div>
+          <div className='grid-link-div'>
+            <a href='' className='grid-learn-more-link'>Learn more</a>
+            <a href='' className='grid-buy-link'>Buy</a>
+          </div>
+          <img className='studio-display-image' src='/assets/images/studio-display-og-202203.png'></img>
         </div>
 
-        <div className='mac-studio-box'>
+        <div className='gutter'>
+        </div>
+
+        <div className='mac-studio-div'>
           <h1 className='mac-studio-h1'>Mac Studio</h1>
           <p className='mac-studio-p'>Empower station.</p>
           <a href='' className='grid-learn-more-link'>Learn more</a>
@@ -86,11 +94,14 @@ const Home = () => {
           <div className='mac-studio-image'></div>
         </div>
 
-        <div className='apple-arcade-box'>
+        <div className='apple-arcade-div'>
           <h1 className='apple-arcade-h1'>Arcade</h1>
           <p className='apple-arcade-p'>Gear.Club Stradale. Play now.</p>
           <a href='' className='grid-learn-more-link'>Learn more</a>
           <a href='' className='grid-buy-link'>Try it free¹</a>
+        </div>
+
+        <div className='gutter'>
         </div>
 
         <div className='apple-tv-image'>
