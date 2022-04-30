@@ -1,4 +1,5 @@
 /* iphone 13 div styling */
+
 .iphone-13-div {
   height: 570px;
   display: flex;
@@ -12,13 +13,12 @@
   margin: 35px 0 0 0;
   font-family: san 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  /* letter-spacing: -.022em; */
 }
 
 .iphone-13-p {
   font-size: 22px;
   margin: 5px 0 12px 0;
-  
+
 }
 
 .iphone-13-image {
@@ -26,6 +26,8 @@
   bottom: 0%;
   margin: 35px 0 0 0;
 }
+
+/* iPhone SE div styling */
 
 .iphone-se-div {
   height: 570px;
@@ -36,18 +38,17 @@
   margin: 10px 0 0 0;
 }
 
-.iphone-se-image{ 
+.iphone-se-image {
   height: 450px;
   margin-top: -45px;
 }
 
 .iphone-se-p1 {
-font-weight: 600;
-margin: 16px 0 0 0;
+  font-weight: 600;
+  margin: 40px 0 0 0;
 }
 
 .iphone-se-h1 {
-  
   margin: 0 0 0 0;
   font-size: 45px;
   font-weight: 600;
@@ -58,14 +59,169 @@ margin: 16px 0 0 0;
   font-size: 22px;
 }
 
+/* iPad air div styling */
+
+.ipad-air-div {
+  margin: 10px 0 0 0;
+  background-color: black;
+  height: 570px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ipad-text-div {
+flex-direction: column;
+justify-content: center;
+margin: 0 25px 0 60px;
+}
+
+.h1-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipad-air-h1 {
+  color: white;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.air-icon {
+  height: 30px;
+  margin: 2px 0 0 8px;
+}
+
+.ipad-air-p {
+  color: white;
+  margin: 5px 0 10px 0;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+
+.ipad-air-image {
+  height: 500px;
+  margin: 0 0 0 50px;
+}
+
+.advert-grid {
+  height: fit-content;
+  margin: 10px;
+  display: grid;
+grid-template-columns: auto auto;
+
+  background-color: gray;
+}
+
+.wwdc22-div {
+  width: 100%;
+  height: 465px;
+  /* background-color: linear-gradient(90deg, #020307, #010103) ; */
+  background: linear-gradient(180deg, rgba(3,16,32, 1) 35%,rgb(1,9,17, 1) 50%, rgb(0,4,6, 1) 60%);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* margin: 0px 10px 10px 0px; */
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+
+.wwdc22-image {
+  width: 600px ; 
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.wwdc22-h1 {
+  font-size: 33px;
+  color: #C6E1E6;
+  letter-spacing: -1px;
+  margin: 0 0 0 0;
+}
+
+.wwdc22-h1-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wwdc22-apple-icon {
+  color: #C6E1E6;
+  height: 30px;
+  width: auto;
+  margin-bottom: 6px;
+}
+
+.wwdc22-p {
+  color: #C6E1E6;
+  margin: 5px 0 10px 0;
+  width: 350px;
+}
+
+.apple-watch-div {
+  width: 100%;
+  height: 465px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(251,251,253);
+}
+
+.apple-watch-h1-div {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple-watch-h1 {
+  font-size: 27px;
+  letter-spacing: -0.5px;
+  margin: 0%;
+}
+
+.watch-apple-icon {
+  height: 24px;
+  width: auto;
+  margin-bottom: 6px;
+} 
+
+.apple-watch-sub {
+  font-size: 12px;
+  font-weight: 550;
+  color: rgb(204,33,40);
+  margin: 2px 0px 10px 0px;
+}
+
+.apple-watch-image {
+  width: 625px;
+  height: auto;
+  object-fit: contain;
+}
+
 .learn-more-link {
   font-size: 16px;
   color: rgb(1, 95, 189);
   text-decoration: none;
 }
+
 .learn-more-link:hover {
   text-decoration: underline;
 }
+
 .learn-more-link:after {
   content: "→";
 }
@@ -76,35 +232,40 @@ margin: 16px 0 0 0;
   text-decoration: none;
   margin: 0 0 0 35px;
 }
+
 .buy-link:hover {
   text-decoration: underline;
 }
+
 .buy-link:after {
   content: "→";
 }
 
 .grid-learn-more-link {
-  font-size: 17px;
+  font-size: 14px;
   color: rgb(1, 95, 189);
   text-decoration: none;
 }
+
 .grid-learn-more-link:hover {
   text-decoration: underline;
 }
+
 .grid-learn-more-link:after {
   content: "→";
 }
 
 .grid-buy-link {
-  font-size: 17px;
+  font-size: 14px;
   color: rgb(1, 95, 189);
   text-decoration: none;
   margin: 0 0 0 28px;
 }
+
 .grid-buy-link:hover {
   text-decoration: underline;
 }
+
 .grid-buy-link:after {
   content: "→";
 }
-
