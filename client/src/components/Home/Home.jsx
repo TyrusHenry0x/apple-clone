@@ -10,7 +10,7 @@ const Home = () => {
           <a href='' className='learn-more-link'>Learn more </a>
           <a href='' className='buy-link'>Buy</a>
         </div>
-        <img className='iphone-13-image' src="/assets/images/iPhone-13.jpg" />
+        <img className='iphone-13-image' src="/assets/images/iPhone-13.png" />
       </div>
 
       <div className='iphone-se-div'>
@@ -115,16 +115,20 @@ const Home = () => {
         <div className='gutter'>
         </div>
 
-        <div className='apple-tv-image'
-          style={{
-            width: '100%',
-            height: 465,
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            background: `url('${process.env.PUBLIC_URL}/assets/images/severance-apple-tv-plus.jpeg')`
-          }}
-        >
-          <a href='' className='apple-tv-link'>Stream all episodes now »</a>
+        <div className='apple-tv-div'>
+          <div className='apple-tv-image'
+            style={{
+              backgroundImage: `url('/assets/images/mankind-poster.jpeg')`,
+            }}
+          >
+            
+            <a href='' className='apple-tv-link'>
+              <p className='apple-tv-stream'>Stream now</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="apple-tv-play" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
