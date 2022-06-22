@@ -196,26 +196,32 @@
 }
 
 .apple-watch-h1 {
-  font-size: 27px;
+  font-size: 35px;
   letter-spacing: -0.5px;
   margin: 0%;
 }
 
 .watch-apple-icon {
-  height: 24px;
+  height: 32px;
   width: auto;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .apple-watch-sub {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 550;
   color: rgb(204, 33, 40);
   margin: 2px 0px 10px 0px;
+  letter-spacing: 0.1em;
+}
+
+.apple-watch-p {
+  font-size: 20px;
+margin: 0 0 15px;
 }
 
 .apple-watch-image {
-  width: 625px;
+  width: 775px;
   height: auto;
   object-fit: contain;
 }
@@ -363,7 +369,7 @@
 }
 
 .learn-more-link {
-  font-size: 16px;
+  font-size: 20px;
   color: rgb(1, 95, 189);
   text-decoration: none;
 }
@@ -377,7 +383,7 @@
 }
 
 .buy-link {
-  font-size: 16px;
+  font-size: 20px;
   color: rgb(1, 95, 189);
   text-decoration: none;
   margin: 0 0 0 35px;
@@ -392,7 +398,7 @@
 }
 
 .grid-learn-more-link {
-  font-size: 14px;
+  font-size: 17px;
   color: rgb(1, 95, 189);
   text-decoration: none;
 }
@@ -406,7 +412,7 @@
 }
 
 .grid-buy-link {
-  font-size: 14px;
+  font-size: 17px;
   color: rgb(1, 95, 189);
   text-decoration: none;
   margin: 0 0 0 28px;

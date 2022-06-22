@@ -66,6 +66,7 @@ const Home = () => {
             <h1 className='apple-watch-h1'>WATCH</h1>
           </div>
           <p className='apple-watch-sub'>SERIES 7</p>
+          <p className='apple-watch-p'>It's our largest display yet.</p>
           <div className='grid-link-div'>
             <a href='' className='grid-learn-more-link'>Learn more</a>
             <a href='' className='grid-buy-link'>Buy</a>
