@@ -1,0 +1,130 @@
+.footer-content {
+  --footer-background: #f5f5f7;
+  --footer-border-color: #d2d2d7;
+  --footer-text-color: #6e6e73;
+  --footer-link-color: #424245;
+  --footer-directory-title-color: #1d1d1f;
+  --footer-directory-title-color-hover: #000;
+  font-size: 12px;
+  background-color: #F5F5F7;
+  letter-spacing: normal;
+}
+
+ul {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
+  border-bottom: 1px solidvar(--footer-border-color);
+  padding: 0px 0 11px;
+  list-style: none;
+}
+
+.footer-link {
+  color: var(--footer-link-color);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footnote-1 {
+  color: var(--footer-text-color);
+  border-bottom: 1px solid var(--footer-border-color);
+  padding: 20px 0 11px 0;
+}
+
+.footnote-content {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  justify-content: center;
+  text-align: left;
+  margin: 20px auto 0 auto;
+
+}
+
+.footer-column-section-title {
+  color: var(--footer-directory-title-color);
+  font-size: 12px;
+  margin: 0 20px 10px 0;
+}
+
+.footer-directory-column-section-list {
+  margin-right: 20px;
+}
+
+.footer-directory-column-section-item {
+  margin: 0 0 10px;
+  color: var(--footer-link-color);
+  width: 176px;
+}
+
+.bottom-footer {
+  width: 980px;
+  margin: auto;
+  padding: 34px 0 25px;
+}
+
+.bottom-footer-shop {
+  color: var(--footer-text-color);
+  border-bottom: 1px solid var(--footer-border-color);
+  text-align: left;
+  margin: 0 0 5px;
+  padding: 0 0 8px;
+  text-decoration: none;
+}
+
+.shop-link {
+  text-decoration: none;
+  color: #0066EE;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: inline;
+}
+
+.footer-legal-copyright {
+  color: var(--footer-text-color);
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: inline;
+}
+
+.footer-legal-copyright {
+  margin: 5px 30px 0 0;
+}
+
+.footer-locale {
+  margin: 5px 0 0 auto;
+}
+
+.footer-legal-link {
+  margin: 5px 7px 0 0;
+  padding: 0 10px 0 0;
+  color: var(--footer-link-color);
+  border-right: 1px solid var(--footer-border-color);
+  text-decoration: none;
+}
+
+.footer-legal-links {
+  margin: 5px 30px 0 0;
+}
+
+.footer-locale-link {
+  color: var(--footer-link-color);
+  text-decoration: none;
+}
