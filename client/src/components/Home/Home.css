@@ -7,6 +7,7 @@
   align-items: center;
   background-color: orange;
   background-color: #FBFBFD;
+  position: relative;
 }
 
 .iphone-13-h1 {
@@ -24,9 +25,33 @@
 
 .iphone-13-image {
   height: 475px;
-  bottom: 0%;
   margin: 35px 0 0 0;
 }
+
+/* iPhone 13 media query */
+
+@media only screen and (max-width: 390px) {
+  .iphone-13-div {
+    padding-top: 45px;
+    height: 500px;
+    width: 390px;
+  }
+
+  .iphone-13-h1 {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+  }
+
+  .iphone-13-image {
+    width: 500px;
+    height: auto;
+    position:absolute;
+    bottom: 2px;
+  }
+}
+
 
 /* iPhone SE div styling */
 
@@ -119,6 +144,12 @@
 
   background-color: #FFFFFF;
 }
+
+/* @media only screen and (max-width: 735px) {
+  .advert-grid {
+    grid-template-columns: 100%;
+  }
+} */
 
 .gutter {
   height: 100%;
