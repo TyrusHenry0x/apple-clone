@@ -1,7 +1,12 @@
+.home-page {
+  width: 100%;
+}
+
 /* iphone 13 div styling */
 
 .iphone-13-div {
   height: 715px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,29 +31,31 @@
 .iphone-13-image {
   height: 475px;
   margin: 35px 0 0 0;
+  position: absolute;
+  bottom: 0;
 }
 
 /* iPhone 13 media query */
 
-@media only screen and (max-width: 390px) {
-  .iphone-13-div {
-    padding-top: 45px;
+@media(max-width: 1036px) {
+  /* .iphone-13-div {
     height: 500px;
     width: 390px;
-  }
+  } */
 
-  .iphone-13-h1 {
+  /* .iphone-13-h1 {
     font-size: 32px;
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .004em;
-  }
+  } */
 
   .iphone-13-image {
-    width: 500px;
+    width: 850px;
     height: auto;
     position:absolute;
-    bottom: 2px;
+    bottom: 0px;
+    overflow: hidden;
   }
 }
 
@@ -141,7 +148,7 @@
   margin: 10px;
   display: grid;
   grid-template-columns: 50% 10px 50%;
-
+overflow: hidden;
   background-color: #FFFFFF;
 }
 

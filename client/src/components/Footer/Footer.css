@@ -70,6 +70,11 @@ ul {
   width: 176px;
 }
 
+/* @media(max-width: 1036px){
+  .footer-directory-column-section-item{
+  }
+} */
+
 .bottom-footer {
   width: 980px;
   margin: auto;
@@ -127,4 +132,10 @@ ul {
 .footer-locale-link {
   color: var(--footer-link-color);
   text-decoration: none;
+}
+
+@media(max-width: 1060px){
+  .bottom-footer{
+    width: 95%;
+  }
 }
