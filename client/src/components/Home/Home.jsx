@@ -13,7 +13,7 @@ const Home = () => {
         <img className='iphone-13-image' src="/assets/images/iPhone-13.png" />
       </div>
 
-      {/* <div className='iphone-se-div'>
+      <div className='iphone-se-div'>
         <p className='iphone-se-p1'>The new</p>
         <h1 className='iphone-se-h1'>iPhone SE</h1>
         <p className='iphone-se-p2'>Love the power. Love the price</p>
@@ -22,9 +22,9 @@ const Home = () => {
           <a href='' className='buy-link'>Buy</a>
         </div>
         <img className='iphone-se-image' src='/assets/images/Apple-iPhoneSE-double-infinity-220308_Full-Bleed-Image.jpg.slideshow-xlarge.png' />
-      </div> */}
+      </div>
 
-      {/* <div className='ipad-air-div'>
+      <div className='ipad-air-div'>
         <div className='ipad-text-div'>
           <div className='h1-div'>
             <h1 className='ipad-air-h1'>iPad</h1>
@@ -35,7 +35,7 @@ const Home = () => {
           <a href='' className='buy-link'>Buy</a>
         </div>
         <img className='ipad-air-image' src='/assets/images/ipad-air_overview__cahgij9otxua_og.png' />
-      </div> */}
+      </div>
 
       <div className='advert-grid'>
 
