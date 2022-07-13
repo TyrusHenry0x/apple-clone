@@ -497,9 +497,45 @@ overflow: hidden;
 
   .arcade-image {
     width: 500px;
+    margin: auto 0 auto 0;
   }
 }
 
 /* @media only screen and (max-width: 834px) {
   Hamburger menu
+} */
+
+@media only screen and (max-width: 734px) {
+  .advert-grid {
+grid-template-columns: 100%;
+  }
+
+  .gutter {
+    width: 100%;
+    height: 10px;
+  }
+
+  .mac-studio-div {
+    margin-top: 0;
+  }
+
+  .apple-tv-div {
+    margin-top: 0;
+  }
+}
+
+/* .advert-grid {
+  height: fit-content;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 50% 10px 50%;
+overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.gutter {
+  height: 100%;
+  width: 10px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
 } */
