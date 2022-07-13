@@ -1,5 +1,8 @@
 # Apple.com clone
 
+## Deployed site
+https://appleclone0x.netlify.app/
+
 ## Overview
 
 This is a front end application that clones the various pages of apple.com using ReactJS
