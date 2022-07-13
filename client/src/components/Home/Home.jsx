@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='home-page'>
       <div className='iphone-13-div'>
-        <h1 className='iphone-13-h1'>iPhone 13 Pro</h1>
+        <h1 className='iphone-13-h1'>iPhone 13 Prolk;asdj;lj;lasjdf</h1>
         <p className='iphone-13-p'>Oh. So. Pro.</p>
         <div className='link-div'>
           <a href='' className='learn-more-link'>Learn more </a>
