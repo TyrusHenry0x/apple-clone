@@ -487,7 +487,19 @@ overflow: hidden;
         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
 
-  .wwdc22-image {
+  .wwdc22-image, .studio-display-image, .mac-studio-image {
     width: 650px;
   }
+
+  .apple-watch-image {
+    width: 600px;
+  }
+
+  .arcade-image {
+    width: 500px;
+  }
 }
+
+/* @media only screen and (max-width: 834px) {
+  Hamburger menu
+} */

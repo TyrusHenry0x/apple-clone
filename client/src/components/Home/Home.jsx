@@ -110,7 +110,7 @@ const Home = () => {
             <a href='' className='grid-learn-more-link'>Learn more</a>
             <a href='' className='grid-buy-link'>Try it free¹</a>
           </div>
-          <img className='arcade-img' src='/assets/images/Apple_apple-arcade_the-enchanted-world-1_091619_big_carousel.jpg.large.png' />
+          <img className='arcade-image' src='/assets/images/Apple_apple-arcade_the-enchanted-world-1_091619_big_carousel.jpg.large.png' />
         </div>
 
         <div className='gutter'>
