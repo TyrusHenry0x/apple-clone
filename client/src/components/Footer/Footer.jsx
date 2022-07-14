@@ -16,8 +16,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <div>
-        <nav className='footer-columns'>
+        <div className='footer-columns'>
 
           <div className='footer-directory-column'>
             <div className='footer-directory-column-section'>
@@ -158,7 +157,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </nav>
+        </div>
 
         <section className="bottom-footer">
           <div className="bottom-footer-shop" x-ms-format-detection="none">
@@ -185,7 +184,6 @@ const Footer = () => {
           </div>
         </section>
       </div>
-    </div>
   )
 }
 
