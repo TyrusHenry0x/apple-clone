@@ -23,7 +23,7 @@ const Home = () => {
           <a href='' className='buy-link'>Buy</a>
         </div>
         <img className='iphone-se-image' src='/assets/images/Apple-iPhoneSE-double-infinity-220308_Full-Bleed-Image.jpg.slideshow-xlarge.png' />
-        <img className='iphone-se-vert' src='/assets/images/iphone-se-vert.png'/>
+        <img className='iphone-se-vert' src='/assets/images/iphone-se-vert.png' />
       </div>
 
       <div className='ipad-air-div'>
@@ -124,15 +124,30 @@ const Home = () => {
               backgroundImage: `url('/assets/images/mankind-poster.jpeg')`,
             }}
           >
-            
+
             <a href='' className='apple-tv-link'>
               <p className='apple-tv-stream'>Stream now</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="apple-tv-play" viewBox="0 0 16 16">
-              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+              </svg>
+            </a>
+          </div>
+
+          <div className='apple-tv-image-2'
+            style={{
+              backgroundImage: `url('/assets/images/fam-vert.jpeg')`,
+            }}
+          >
+
+            <a href='' className='apple-tv-link'>
+              <p className='apple-tv-stream'>Stream now</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="apple-tv-play" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
               </svg>
             </a>
           </div>
         </div>
+
       </div>
 
 
