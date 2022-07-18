@@ -57,6 +57,10 @@
   margin-top: -20px;
 }
 
+.iphone-se-vert {
+  display: none;
+}
+
 .iphone-se-p1 {
   font-size: 18px;
   font-weight: 600;
@@ -631,7 +635,7 @@ height: 400px;
 }
 
 .iphone-se-h1 {
-  font-size: 48px;
+  font-size: 34px;
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
@@ -643,18 +647,30 @@ height: 400px;
 
 .iphone-se-image {
   overflow: hidden;
+  width:550px;
+  height: auto;
+  margin: auto 0;
+  display: none;
+}
+
+.iphone-se-vert {
+  display: block;
+  height:500px;
+  width: auto;
+  margin-top: -50px;
 }
 
 /* Ipad air media queries */
 
 .ipad-air-div {
   height: 615px;
+  flex-direction: column;
 }
 
 .ipad-text-div {
   flex-direction: column;
   justify-content: center;
-  margin: 0 0px 0 30px;
+  margin: 0 0 35px 0;
 }
 
 .h1-div {
@@ -685,7 +701,7 @@ height: 400px;
 }
 
 .ipad-air-image {
-  height: 500px;
+  height: 350px;
   margin: 0 10px 0 25px;
 }
 
