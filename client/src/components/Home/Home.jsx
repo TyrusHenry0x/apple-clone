@@ -11,6 +11,7 @@ const Home = () => {
           <a href='' className='buy-link'>Buy</a>
         </div>
         <img className='iphone-13-image' src="/assets/images/iPhone-13.png" />
+        <img className='iphone-13-side' src='/assets/images/Apple-IPhone13-Pro-IPHONE13PROGREEN-Side-View.png' />
       </div>
 
       <div className='iphone-se-div'>
