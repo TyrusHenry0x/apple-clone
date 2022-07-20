@@ -1,0 +1,154 @@
+.nav {
+  background-color: black;
+  opacity: 85%;
+  position: relative;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  z-index: 3;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 996px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
+}
+
+.nav-link,
+.nav-search,
+.nav-cart,
+.nav-home {
+  padding: 0 8px;
+  font-size: 12px;
+  color: #F5F5F7;
+  text-decoration: none;
+}
+
+.nav-search-link,
+.nav-cart-link,
+.nav-home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-home {
+  width: 15px;
+}
+
+.nav-search {
+  width: 13px;
+}
+
+
+.mobile-navigation {
+  display: none;
+}
+
+@media(max-width: 834px) {
+
+  .nav {
+    opacity: 100%;
+    position: fixed;
+  }
+
+  .mobile-navigation {
+    display: block;
+  }
+
+  .mobile-hamburger {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .nav-home-link-div {
+    position: absolute;
+    color: #F5F5F7;
+  }
+
+  .nav-home-logo {
+    width: 16px;
+    margin-top: 15px;
+  }
+
+
+  .search-bar {
+    background-color: #1D1D1F;
+    color: #6E6E73;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 36px;
+    margin: 0 auto 20px auto;
+    /* margin-right: min(10px, 200px);
+  margin-left: min(10px, 200px); */
+    border-radius: 8px;
+    max-width: 600px;
+  }
+
+  .mobile-nav-search {
+    padding: 0 8px;
+    font-size: 12px;
+    height: 14px;
+  }
+
+  .search-text {
+    font-size: 17px;
+  }
+
+  .nav-list {
+    padding: 0 40px 8px;
+    max-width: 584px;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .list-item {
+    height: 44px;
+    font-weight: 300;
+  }
+
+  .mobile-nav-link {
+    font-size: 17px;
+    height: 21px;
+    color: #F5F5F7;
+    text-decoration: none;
+  }
+
+  .bottom-filler {
+    height: 100vh;
+    width: 100%;
+    color: black;
+  }
+
+  .dropdown-hr-long {
+    margin: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #424245;
+  }
+
+  .dropdown-hr {
+    margin: 0;
+    height: 1px;
+    background-color: #424245;
+  }
+}
+
+@media (max-width: 620px) {
+  .search-bar {
+    margin: 0 10px 20px 10px;
+  }
+}
