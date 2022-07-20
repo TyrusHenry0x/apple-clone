@@ -76,11 +76,17 @@
   .nav-home-link-div {
     position: absolute;
     color: #F5F5F7;
+    left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100px;
   }
 
   .nav-home-logo {
     width: 16px;
-    margin-top: 15px;
+    height: auto;
+    /* margin-top: 15px; */
   }
 
 
