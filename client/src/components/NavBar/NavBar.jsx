@@ -37,7 +37,7 @@ const NavBar = () => {
 
     <div className='nav'>
       <MobileNavigation />
-      <Navigation/>
+      <Navigation />
     </div>
   )
 }

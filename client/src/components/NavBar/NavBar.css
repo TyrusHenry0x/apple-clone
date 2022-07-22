@@ -1,11 +1,12 @@
 .nav {
   background-color: black;
+  position: fixed;
   opacity: 85%;
-  position: relative;
   width: 100%;
   height: 45px;
   line-height: 45px;
   z-index: 3;
+  backdrop-filter: blur(15px);
 }
 
 .navigation {
@@ -55,7 +56,6 @@
 
   .nav {
     opacity: 100%;
-    position: fixed;
   }
 
   .mobile-navigation {
@@ -76,11 +76,11 @@
   .nav-home-link-div {
     position: absolute;
     color: #F5F5F7;
-    left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
   }
 
   .nav-home-logo {
