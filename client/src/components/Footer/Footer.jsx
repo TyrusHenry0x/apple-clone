@@ -157,7 +157,11 @@ const Footer = () => {
         <section className="bottom-footer">
           <div className="bottom-footer-shop" x-ms-format-detection="none">
             More ways to shop: <a href="javascript:void(0);" data-analytics-title="find an apple store" className='shop-link'>Find an Apple Store</a> or <a href="javascript:void(0);" data-analytics-title="other retailers or resellers" data-analytics-exit-link="" className='shop-link'>other retailer</a> near you. <span className="nowrap">Or call 1-800-MY-APPLE.</span>
-          </div>
+        </div>
+        <div className='footer-locale-media'>United States</div>
+        <div className="footer-legal-copyright-media">Copyright ©
+                2022
+                Apple Inc. All rights reserved.</div>
           <div className='footer-flex'>
             <div className="footer-legal">
               <div className="footer-legal-copyright">Copyright ©
@@ -165,15 +169,15 @@ const Footer = () => {
                 Apple Inc. All rights reserved.
               </div>
               <div className="footer-legal-links">
-                <a className="footer-legal-link" href="" data-analytics-title="privacy policy">Privacy Policy</a>
-                <a className="footer-legal-link" href="" data-analytics-title="terms of use">Terms of Use</a>
-                <a className="footer-legal-link" href="" data-analytics-title="sales and refunds">Sales and Refunds</a>
-                <a className="footer-legal-link" href="" data-analytics-title="legal">Legal</a>
-                <a className="footer-legal-link" href="" tabindex="0" data-analytics-title="site map">Site Map</a>
+                <p className="footer-legal-link" href="" data-analytics-title="privacy policy">Privacy Policy</p>
+                <p className="footer-legal-link" href="" data-analytics-title="terms of use">Terms of Use</p>
+                <p className="footer-legal-link" href="" data-analytics-title="sales and refunds">Sales and Refunds</p>
+                <p className="footer-legal-link" href="" data-analytics-title="legal">Legal</p>
+                <p className="footer-legal-link-end" href="" tabindex="0" data-analytics-title="site map">Site Map</p>
               </div>
             </div>
             <div className="footer-locale">
-              <a className="footer-locale-link" href="" title="Choose your country or region" aria-label="United States. Choose your country or region" data-analytics-title="choose your country">United States</a>
+              <p className="footer-locale-link" href="" >United States</p>
             </div>
           </div>
         </section>
