@@ -1,5 +1,7 @@
 import './Footer.css'
 
+import Famburger from './Famburger';
+
 const Footer = () => {
   return (
     <div className='footer-content'>
@@ -16,8 +18,9 @@ const Footer = () => {
         </li>
       </ul>
 
+      <Famburger />
+      
         <div className='footer-columns'>
-
           <div className='footer-directory-column'>
             <div className='footer-directory-column-section'>
               <label className='footer-directory-column-section-label'>
@@ -37,7 +40,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           <div className='footer-directory-column'>
             <div className='footer-directory-column-section'>
               <label className='footer-directory-column-section-label'>
@@ -67,7 +69,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           <div className='footer-directory-column'>
             <div className='footer-directory-column-section'>
               <label className='footer-directory-column-section-label'>
@@ -87,7 +88,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           <div className='footer-directory-column'>
             <div className='footer-directory-column-section'>
               <label className='footer-directory-column-section-label'>
@@ -97,7 +97,6 @@ const Footer = () => {
                 <li className='footer-directory-column-section-item'>Apple and Business</li>
                 <li className='footer-directory-column-section-item'>Shop for Business</li>
               </ul>
-
               <label className='footer-directory-column-section-label'>
                 <h3 className='footer-column-section-title'>For Education</h3>
               </label>
@@ -106,7 +105,6 @@ const Footer = () => {
                 <li className='footer-directory-column-section-item'>Shop for K-12</li>
                 <li className='footer-directory-column-section-item'>Shop for College</li>
               </ul>
-
               <label className='footer-directory-column-section-label'>
                 <h3 className='footer-column-section-title'>For Healthcare</h3>
               </label>
@@ -115,7 +113,6 @@ const Footer = () => {
                 <li className='footer-directory-column-section-item'>Health on Apple Watch</li>
                 <li className='footer-directory-column-section-item'>Health Records on iPhone</li>
               </ul>
-
               <label className='footer-directory-column-section-label'>
                 <h3 className='footer-column-section-title'>For Government</h3>
               </label>
@@ -125,7 +122,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           <div className='footer-directory-column'>
             <div className='footer-directory-column-section'>
               <label className='footer-directory-column-section-label'>
@@ -140,8 +136,7 @@ const Footer = () => {
                 <li className='footer-directory-column-section-item'>Racial Equity and Justice</li>
                 <li className='footer-directory-column-section-item'>Supplier Responsibility</li>
               </ul>
-            </div>
-
+            </div> 
             <div className='footer-directory-column-section'>
               <label className='footer-directory-column-section-label'>
                 <h3 className='footer-column-section-title'>About Apple</h3>
@@ -157,7 +152,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </div>
+      </div>
 
         <section className="bottom-footer">
           <div className="bottom-footer-shop" x-ms-format-detection="none">
@@ -166,7 +161,6 @@ const Footer = () => {
           <div className='footer-flex'>
             <div className="footer-legal">
               <div className="footer-legal-copyright">Copyright ©
-
                 2022
                 Apple Inc. All rights reserved.
               </div>

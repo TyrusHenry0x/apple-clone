@@ -52,6 +52,11 @@ ul {
   margin: 20px auto 0;
 }
 
+.hamburger-div {
+  padding-top: 20px;
+  display: none;
+}
+
 .footer-column-section-title {
   color: var(--footer-directory-title-color);
   font-size: 12px;
@@ -133,6 +138,107 @@ ul {
   }
 }
 
-/* @media(max-width: 834px){
-  footer hamburger menu**
+@media(max-width: 834px){
+  /* footer hamburger menu** */
+  .footer-content {
+    padding: 0 16px;
+  }
+  .footer-columns {
+    display: none;
+  }
+  .hamburger-div {
+    display: block;
+  }
+}
+
+.menu {
+  background: #ffffff;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 300px;
+  
+}
+
+
+/* .menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+} */
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+
+.menu-trigger {
+  background-color: var(--footer-background);
+  width: 100%;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  
+}
+
+.hamburger-column-section-title {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.hamburger-directory-column-section {
+  border-bottom: 1px solid var(--footer-border-color);
+}
+
+.plus {
+  margin: 0 8px 0 0;
+  color: var(--footer-text-color);
+  font-size: 14px;
+}
+
+.hamburger-directory-column-section-list {
+  padding: 5px 0 16px;
+}
+
+.hamburger-directory-column-section-item {
+  text-align: left; 
+  color: var(--footer-link-color);
+  font-size: 12px;
+  padding: 6px 14px;
+}
+
+/* .hamburger-column-section-title:active {
+  font-weight: normal;
+  margin-top: -2px;
+  margin-right: 8px;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.plus:active {
+  font-weight: normal;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
 } */
