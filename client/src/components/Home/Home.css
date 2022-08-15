@@ -753,6 +753,14 @@ height: 400px;
 }
 
 @media(max-width: 450px) {
+.learn-more-link, .buy-link {
+  font-size: 17px;
+}
+
+.buy-link {
+  margin-left: 27px;
+}
+
   .arcade-image {
     width: 425px;
   }
