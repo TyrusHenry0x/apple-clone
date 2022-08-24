@@ -78,7 +78,8 @@ ul {
   max-width: 980px;
   margin: 0 auto 0;
   padding: 34px 0 25px;
-  height: 140px;
+  /* height: 140px; */
+  height: fit-content;
   position: relative;
 }
 
